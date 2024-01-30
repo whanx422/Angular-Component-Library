@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html class="fixed">
+
+<head>
+
+    <!-- Basic -->
+    <meta charset="UTF-8">
+    <title>BOLD. | Listing Page No Records</title>
+    <meta name="keywords" content="BOLD" />
+    <meta name="description" content="BOLD">
+    <meta name="author" content="MACROKIOSK">
+
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- CSS Libraries -->
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="libs/animate/animate.css">
+    <link rel="stylesheet" href="libs/font-awesome/css/all.min.css" />
+    <link rel="stylesheet" href="libs/fontawesome-pro/css/all.min.css" />
+    <link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css" />
+    <link rel="stylesheet" href="libs/bootstrap-datepicker/css/bootstrap-datepicker3.css" />
+    <link rel="stylesheet" href="libs/bootstrap-fileupload/bootstrap-fileupload.min.css" />
+    <link rel="stylesheet" href="libs/bootstrap-multiselect/css/bootstrap-multiselect.css" />
+    <link rel="stylesheet" href="libs/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" href="libs/bootstrap-timepicker/css/bootstrap-timepicker.css" />
+    <link rel="stylesheet" href="libs/bootstrap-markdown/css/bootstrap-markdown.min.css" />
+    <link rel="stylesheet" href="libs/summernote/summernote-bs4.css" />
+    <link rel="stylesheet" href="libs/codemirror/lib/codemirror.css" />
+    <link rel="stylesheet" href="libs/codemirror/theme/eclipse.css" />
+    <link rel="stylesheet" href="libs/jquery-ui/jquery-ui.css" />
+    <link rel="stylesheet" href="libs/jquery-ui/jquery-ui.theme.css" />
+    <link rel="stylesheet" href="libs/bootstrap-select/bootstrap-select.min.css">
+    <link rel="stylesheet" href="libs/selectize/selectize.css">
+    <link rel="stylesheet" href="libs/datatables/media/css/dataTables.bootstrap4.css" />
+    <link rel="stylesheet" href="libs/datatables/extras/Reorder/Rowreorder.css" />
+
+    <!-- default component CSS -->
+    <link rel="stylesheet" href="../default-page/default-page.component.css">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="assets/css/theme.css" />
+
+    <!-- Skin CSS -->
+    <link rel="stylesheet" href="assets/css/skins/default.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Head Libraries -->
+    <script src="libs/modernizr/modernizr.js"></script>
+    <script src="libs/jquery/jquery.js"></script>
+
+
+    <script>
+        $.get('header.html', function (response) {
+            $('#header').html(response);
+        });
+    </script>
+</head>
+
+<body>
+    <p class="color-blue">I am pageA component</p>
+    <app-shared></app-shared>
+
+    <section class="body">
+        <!-- Start: Include header HTML -->
+        <div id='header'></div>
+        <!-- End: Include header HTML -->
+        <div class="inner-wrapper">
+            <!-- start: sidebar -->
+            <div id='sidenav'></div>
+            <!-- end: sidebar -->
+            <section role="main" class="content-body">
+                <header class="page-header">
+                    <h2>Listing Page No Records</h2>
+
+                    <div class="right-wrapper text-right mr-3">
+                        <ol class="breadcrumbs">
+
+                            <li><a><span>Pages</span></a></li>
+                            <li><span>Standard Page
+                                </span></li>
+                            <li><span>Listing Page No Records
+                                </span></li>
+                        </ol>
+                    </div>
+                </header>
+                <!-- start: page -->
+                <!-- <div class="row">
+                    <div class="col-sm-6">
+                        <div class="mb-3">
+                            <div>
+                                <button id="addToTable" class="mb-1 mt-1 mr-1 btn btn-primary">Action
+                                    Button</button>
+                                <p class="btn_subtext">To show some note or display available balance</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+ -->
+                <div class="row pt-5">
+                    <div class="col text-center">
+                        <img width="150" src="../../assets/img-listing-no-records.png">
+                        <h3 class="fi_title">Your [module name] list is empty.</h3>
+                        <p>Module objectives as defined on the Service First Impression page.<br><br>
+                            Need help? Let us guide you <a href="#">here</a>.</p> 
+                        <div>
+                            <button id="addToTable" class="mb-1 mt-1 mr-1 btn btn-primary">Action
+                                Button</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- end: page -->
+            </section>
+        </div>
+
+
+    </section>
+
+    <!-- JS Libraries -->
+    <script src="libs/jquery-browser-mobile/jquery.browser.mobile.js"></script>
+    <script src="libs/popper/umd/popper.min.js"></script>
+    <script src="libs/bootstrap/js/bootstrap.js"></script>
+    <script src="libs/common/common.js"></script>
+    <script src="libs/magnific-popup/jquery.magnific-popup.js"></script>
+    <script src="libs/jquery-placeholder/jquery.placeholder.js"></script>
+    <script src="libs/select2/js/select2.js"></script>
+    <script src="libs/datatables/media/js/jquery.dataTables.min.js"></script>
+    <script src="libs/moment/moment.min.js"></script>
+    <script src="libs/daterangepicker/daterangepicker.min.js"></script>
+    <script src="libs/bootstrap-timepicker/js/bootstrap-timepicker.js"></script>
+    <script src="libs/vanilla-datetimepicker/moment.min.js"></script>
+    <script src="libs/vanilla-datetimepicker/vanilla-datetimerange-picker.js"></script>
+    <script src="libs/bootstrap-select/bootstrap-select.min.js"></script>
+    <script src="libs/datatables/extras/Reorder/Rowreorder.js"></script>
+    <script src="libs/datatables/extras/TableTools/Checkbox/dataTables.checkboxes.min.js"></script>
+    <script src="libs/ios7-switch/ios7-switch.js"></script>
+
+    
+    <!-- Theme Base, Components and Settings -->
+    <script src="assets/js/theme.js"></script>
+    <script src="assets/js/lightbox.js"></script>
+    <script src="assets/js/modals.js"></script>
+
+    <!-- Theme Initialization Files -->
+    <script src="assets/js/theme.init.js"></script>
+    <!-- vanilla datetime picker -->
+    <!-- Custom JS -->
+    <script src="assets/js/custom.js"></script>
+
+
+
+
+    <!-- Select with filter -->
+
+
+</body>
+
+</html>

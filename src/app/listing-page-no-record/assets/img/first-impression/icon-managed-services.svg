@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #468ff3;
+        stroke-width: 5.7px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-3 {
+        fill: #468ff3;
+      }
+
+      .cls-4 {
+        opacity: .15;
+      }
+
+      .cls-2 {
+        stroke: #2d5798;
+        stroke-width: 5px;
+      }
+    </style>
+  </defs>
+  <g class="cls-4">
+    <path class="cls-3" d="M136.47,31.37H43.53c-7.8,0-14.12,6.32-14.12,14.12v103.14l37.74-27.89h69.33c7.8,0,14.12-6.32,14.12-14.12V45.49c0-7.8-6.32-14.12-14.12-14.12h0Z"/>
+  </g>
+  <path class="cls-1" d="M136.47,31.37H43.53c-7.8,0-14.12,6.32-14.12,14.12v103.14l37.74-27.89h69.33c7.8,0,14.12-6.32,14.12-14.12V45.49c0-7.8-6.32-14.12-14.12-14.12h0Z"/>
+  <g>
+    <circle class="cls-2" cx="60.36" cy="74.84" r="8.97"/>
+    <circle class="cls-2" cx="90" cy="74.84" r="8.97"/>
+    <circle class="cls-2" cx="119.64" cy="74.84" r="8.97"/>
+  </g>
+</svg>

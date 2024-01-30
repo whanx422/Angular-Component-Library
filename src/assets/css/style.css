@@ -1,0 +1,10 @@
+.fi_title {
+    color: #000;
+}
+
+.btn {
+    /* padding: 0.35rem 1.25rem; */
+    padding: 0.375rem 0.75rem;
+    font-size: 0.85rem;
+    line-height: unset;
+  }

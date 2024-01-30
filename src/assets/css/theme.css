@@ -1,0 +1,48 @@
+.h3 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-size: 1.6em;
+	font-weight: 400;
+	letter-spacing: normal;
+	line-height: 24px;
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/* Paragraphs */
+p {
+	color: #777;
+	line-height: 24px;
+	margin: 0 0 20px;
+}
+
+p.featured {
+	font-size: 1.6em;
+	line-height: 1.5em;
+}
+
+p.lead {
+	line-height: 25.6px;
+	line-height: 1.6rem;
+}
+
+p .alternative-font {
+	display: inline-block;
+	margin-top: -15px;
+	position: relative;
+	top: 3px;
+	margin-bottom: -6px;
+}
+
+.btn {
+	font-size: 14.4px;
+	font-size: 0.9rem;
+	padding: 7.52px 12px;
+	padding: 0.47rem 0.75rem;
+	cursor: pointer;
+}
